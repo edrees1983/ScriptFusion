@@ -1,0 +1,32 @@
+body{
+  padding: 25px;
+}
+.title {
+	color: #fffff;
+}
+.btn-link {
+  /* Basic Shape & Colors */
+  display: inline-block;
+  background-color: #007bff; /* Primary Blue */
+  color: white;
+  padding: 12px 24px;
+  text-decoration: none; /* Removes standard link underline */
+  border-radius: 8px; /* Rounded corners */
+  font-family: sans-serif;
+  font-weight: bold;
+  
+  /* Smooth Transitions */
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  cursor: pointer;
+}
+
+/* Hover Effect */
+.btn-link:hover {
+  background-color: #0056b3; /* Darker Blue */
+  transform: translateY(-2px); /* Slight lift */
+}
+
+/* Active/Click Effect */
+.btn-link:active {
+  transform: translateY(0);
+}
